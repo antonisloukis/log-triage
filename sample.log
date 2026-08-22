@@ -1,0 +1,7 @@
+2026-08-22T23:30:00Z service-auth INFO User login succeeded user_id=12345 session=abcde
+2026-08-22T23:30:05Z service-db INFO Connected to primary database host=db-primary.internal:5432
+2026-08-22T23:31:10Z service-api WARNING Slow response for GET /v1/data latency_ms=1200 request_id=req-789
+2026-08-22T23:31:30Z service-scheduler INFO Scheduled job "daily-backup" started job_id=job-20260822
+2026-08-22T23:32:00Z service-storage ERROR Failed to write object to bucket "backups" error=ENOSPC
+2026-08-22T23:32:45Z service-scheduler WARNING Task retry limit approaching task_id=job-20260822 retries=4
+2026-08-22T23:33:20Z service-health INFO Health check passed cpu=12% mem=256MB
